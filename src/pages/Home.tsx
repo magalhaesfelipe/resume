@@ -37,6 +37,29 @@ const Home = () => {
               can impact communities and the industry.
             </p>
 
+            <label className='p-0.2 border-b-2 border-b-gray-50 px-2 text-sm font-extrabold text-white'>
+              PROJECTS
+            </label>
+
+            <div className=''></div>
+
+            {/* 
+            <label className='p-0.2 border-b-2 border-b-gray-50 px-2 text-sm font-extrabold text-white'>
+              WORK EXPERIENCE
+            </label> */}
+
+            {/* <label className='p-0.2 border-b-2 border-b-gray-50 px-2 text-sm font-extrabold text-white'>
+              STACKS
+            </label>
+
+            <label className='p-0.2 border-b-2 border-b-gray-50 px-2 text-sm font-extrabold text-white'>
+              EDUCATION/CERTIFICATES
+            </label>
+
+            <label className='p-0.2 border-b-2 border-b-gray-50 px-2 text-sm font-extrabold text-white'>
+              LANGUAGES
+            </label> */}
+
             {/* <div>
               <div className='mb-12 flex flex-col justify-center rounded-lg border-2 border-slate-700 p-5 align-middle'>
                 <div className='mb-10'>
