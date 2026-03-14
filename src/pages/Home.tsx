@@ -10,7 +10,7 @@ const Home = () => {
       <div className='flex h-screen w-[90%] gap-10 bg-[--var(--color-black-bg)] p-2 pt-8'>
         <header className='flex h-full flex-col'>
           <h3 className='flex whitespace-nowrap pb-0 pt-2 text-2xl font-semibold text-gray-200'>
-            Felipe Magalhaes
+            Felipe Magalhães
           </h3>
           <span className='pt-0 text-gray-400'>Software Engineer</span>
           <div className='mt-[7px]'>
@@ -41,7 +41,31 @@ const Home = () => {
               PROJECTS
             </label>
 
-            <div className=''></div>
+            <div className='mt-5 grid grid-cols-2 grid-rows-2 gap-2 gap-x-36'>
+              <div className='flex flex-col p-3'>
+                <span className=''>Mangazine</span>
+                <span className='text-[14px] text-gray-400'>
+                  The reading platform
+                </span>
+                <span className='text-[14px] text-gray-200'>16130</span>
+              </div>
+
+              <div className='flex flex-col p-3'>
+                <span className=''>Mangazine</span>
+                <span className='text-[14px] text-gray-400'>
+                  The reading platform
+                </span>
+                <span className='text-[14px] text-gray-200'>16130</span>
+              </div>
+
+              <div className='flex flex-col p-3'>
+                <span className=''>Mangazine</span>
+                <span className='text-[14px] text-gray-400'>
+                  The reading platform
+                </span>
+                <span className='text-[14px] text-gray-200'>16130</span>
+              </div>
+            </div>
 
             {/* 
             <label className='p-0.2 border-b-2 border-b-gray-50 px-2 text-sm font-extrabold text-white'>
