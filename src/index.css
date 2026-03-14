@@ -2,3 +2,50 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: 'Nunito Sans';
+  src: url('./assets/fonts/Nunito_Sans/NunitoSans-VariableFont_YTLC,opsz,wdth,wght.ttf')
+    format('truetype');
+  font-weight: 200 1000;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Nunito Sans';
+  src: url('./assets/fonts/Nunito_Sans/NunitoSans-Italic-VariableFont_YTLC,opsz,wdth,wght.ttf')
+    format('truetype');
+  font-weight: 200 1000;
+  font-style: italic;
+}
+
+:root {
+  --color-black-bg: rgb(15, 15, 15);
+}
+
+body {
+  font-family: 'Nunito Sans', sans-serif;
+  background-color: var(--color-black-bg);
+}
+
+/* width of vertical scrollbar */
+::-webkit-scrollbar {
+  width: 3px;
+  height: 3px;
+}
+
+/* scrollbar track */
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* scrollbar handle */
+::-webkit-scrollbar-thumb {
+  background: #202020;
+  border-radius: 0px;
+}
+
+/* hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #1a1919;
+}

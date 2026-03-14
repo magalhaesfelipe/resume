@@ -1,27 +1,43 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGlobe } from '@fortawesome/free-solid-svg-icons';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
+//import githubIcon from '../assets/icons/github.svg';
+// import { GithubIcon } from '../assets/icons/github.svg';
 
 const Home = () => {
   return (
-    <>
-      <header className='mt-10 flex justify-end'>
-        <a href='https://github.com/magalhaesfelipe' target='_blank'>
-          <FontAwesomeIcon
-            icon={faGithub}
-            className='mr-6 text-4xl text-white transition-colors'
-          />
-        </a>
-      </header>
-      <div className='mt-10 flex h-screen items-start justify-center font-mate text-white'>
-        <div className='text-left'>
-          <h1 className='mb-4 flex text-3xl'>Felipe Magalhaes</h1>
-          <div className='bg--500 max-w-fit'>
-            <p className='mb-32 font-mate text-lg'>
-              Hey, I am Felipe, a full stack web developer. Check out some cool projects.
+    <div className='flex h-full w-full justify-center'>
+      <div className='flex h-screen w-[90%] gap-10 bg-[--var(--color-black-bg)] p-2 pt-8'>
+        <header className='flex h-full flex-col'>
+          <h3 className='flex whitespace-nowrap pb-0 pt-2 text-2xl font-semibold text-gray-200'>
+            Felipe Magalhaes
+          </h3>
+          <span className='pt-0 text-gray-400'>Software Engineer</span>
+          <div className='mt-[7px]'>
+            <span className='border-dashed border-gray-200 text-[13px] text-gray-200'>
+              ffelipemagallhaes@gmail.com
+            </span>
+          </div>
+        </header>
+
+        <div className='flex h-screen items-start justify-center text-white'>
+          <div className='px-[6%] pr-[22%] pt-6'>
+            <label className='p-0.2 border-b-2 border-b-gray-50 px-2 text-sm font-extrabold text-white'>
+              ABOUT
+            </label>
+            <p className='text-1xl mb-6 mt-3 pl-4'>
+              My name is Felipe Magalhães, a full-stack software engineer. My
+              passion for software lies with dreaming up ideas and making them
+              come true with elegant interfaces. I take great care in the
+              experience, architecture, and code quality of the things I build.
+            </p>
+            <p className='text-1xl mb-6 mt-3 pl-4'>
+              I am also a founder(<strong>Mangazine</strong>) and maintainer. I
+              like to bring vision into reality and I'm happy to see what I do
+              can impact communities and the industry.
             </p>
 
-            <div>
+            {/* <div>
               <div className='mb-12 flex flex-col justify-center rounded-lg border-2 border-slate-700 p-5 align-middle'>
                 <div className='mb-10'>
                   <div className='flex flex-col justify-center text-center'>
@@ -123,11 +139,11 @@ const Home = () => {
                   </div>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 
