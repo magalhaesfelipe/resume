@@ -41,30 +41,48 @@ const Home = () => {
               PROJECTS
             </label>
 
-            <div className='mt-5 grid grid-cols-2 grid-rows-2 gap-2 gap-x-36'>
+            <div className='mb-5 mt-5 grid grid-cols-2 grid-rows-2 gap-2 gap-x-36'>
               <div className='flex flex-col p-3'>
-                <span className=''>Mangazine</span>
+                <span className=''>Mangazine (frontend)</span>
                 <span className='text-[14px] text-gray-400'>
-                  The reading platform
+                  The reading platform UI
                 </span>
                 <span className='text-[14px] text-gray-200'>16130</span>
               </div>
 
               <div className='flex flex-col p-3'>
-                <span className=''>Mangazine</span>
+                <span className=''>Mangazine (backend)</span>
                 <span className='text-[14px] text-gray-400'>
-                  The reading platform
+                  The reading platform back-end
                 </span>
                 <span className='text-[14px] text-gray-200'>16130</span>
               </div>
 
               <div className='flex flex-col p-3'>
-                <span className=''>Mangazine</span>
+                <span className=''>This Website</span>
                 <span className='text-[14px] text-gray-400'>
-                  The reading platform
+                  My personal website
                 </span>
                 <span className='text-[14px] text-gray-200'>16130</span>
               </div>
+            </div>
+
+            <label className='p-0.2 border-b-2 border-b-gray-50 px-2 text-sm font-extrabold text-white'>
+              WORK EXPERIENCE
+            </label>
+
+            <div className='mt-5'>
+              <div className='flex gap-2'>
+                <span className='cursor-pointer border-b border-dashed border-b-gray-400 px-1'>
+                  Pax Primavera
+                </span>
+                <span className='font-normal text-gray-300'>
+                  Full Stack Developer
+                </span>
+              </div>
+              <span className='text-[12px] text-gray-300'>
+                March 2025 - Present | Hybrid
+              </span>
             </div>
 
             {/* 
