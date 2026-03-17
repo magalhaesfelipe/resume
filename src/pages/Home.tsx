@@ -6,8 +6,8 @@ import { faGithub } from '@fortawesome/free-brands-svg-icons';
 
 const Home = () => {
   return (
-    <div className='flex h-full w-full justify-center'>
-      <div className='flex h-screen w-[90%] gap-10 bg-[--var(--color-black-bg)] p-2 pt-8'>
+    <div className='flex h-full w-full justify-center pb-[40%]'>
+      <div className='flex h-screen w-[90%] gap-10 bg-[--var(--color-black-bg)] p-2 pb-[200px] pt-8'>
         <header className='flex h-full flex-col'>
           <h3 className='flex whitespace-nowrap pb-0 pt-2 text-2xl font-semibold text-gray-200'>
             Felipe Magalhães
@@ -25,13 +25,13 @@ const Home = () => {
             <label className='p-0.2 border-b-2 border-b-gray-50 px-2 text-sm font-extrabold text-white'>
               ABOUT
             </label>
-            <p className='text-1xl mb-6 mt-3 pl-4'>
+            <p className='text-1xl mb-6 mt-3 pl-4 font-thin'>
               My name is Felipe Magalhães, a full-stack software engineer. My
               passion for software lies with dreaming up ideas and making them
               come true with elegant interfaces. I take great care in the
               experience, architecture, and code quality of the things I build.
             </p>
-            <p className='text-1xl mb-6 mt-3 pl-4'>
+            <p className='text-1xl mb-6 mt-3 pl-4 font-thin'>
               I am also a founder(<strong>Mangazine</strong>) and maintainer. I
               like to bring vision into reality and I'm happy to see what I do
               can impact communities and the industry.
@@ -85,14 +85,65 @@ const Home = () => {
               </span>
             </div>
 
+            <div className='mt-3 flex flex-col gap-2 font-thin'>
+              <span className='text-[15px]'>
+                ◉ Developing user interfaces and integrating with API
+              </span>
+              <span className='text-[15px]'>
+                ◉ Developing user interfaces and integrating with API
+              </span>
+              <span className='text-[15px]'>
+                ◉ Developing user interfaces and integrating with API
+              </span>
+            </div>
+
             {/* 
             <label className='p-0.2 border-b-2 border-b-gray-50 px-2 text-sm font-extrabold text-white'>
               WORK EXPERIENCE
             </label> */}
+            <div className='mt-7'>
+              <label className='p-0.2 mt-4 border-b-2 border-b-gray-50 px-2 text-sm font-extrabold text-white'>
+                STACKS
+              </label>
 
-            {/* <label className='p-0.2 border-b-2 border-b-gray-50 px-2 text-sm font-extrabold text-white'>
-              STACKS
-            </label>
+              <div className='mt-4 flex flex-col gap-4 pl-6'>
+                <span className='flex gap-2'>
+                  <p className='w-24 font-normal'>Frontend</p>
+                  <p className='text-[15px] font-thin'>
+                    TypeScript, JavaScript, React, Svelt, Vite, Webpack
+                  </p>
+                </span>
+
+                <span className='flex gap-2'>
+                  <p className='w-24 font-normal'>Backend</p>
+                  <p className='text-[15px] font-thin'>
+                    Node, Postgres, MongoDB, MySQL, Serveerless, Nginx, Docker
+                  </p>
+                </span>
+
+                <span className='flex gap-2'>
+                  <p className='w-24 font-normal'>Mobile</p>
+                  <p className='text-[15px] font-thin'>
+                    Android, Kotlin, PWA, React Native
+                  </p>
+                </span>
+
+                <span className='flex gap-2'>
+                  <p className='w-24 font-normal'>DevOps</p>
+                  <p className='text-[15px] font-thin'>
+                    Azure, AWS, Firebase, AliCloud
+                  </p>
+                </span>
+
+                <span className='flex gap-2'>
+                  <p className='w-24 font-normal'>Languages</p>
+                  <p className='text-[15px] font-thin'>
+                    Go, C/C++, Rust, Python, Java
+                  </p>
+                </span>
+              </div>
+            </div>
+            {/* 
 
             <label className='p-0.2 border-b-2 border-b-gray-50 px-2 text-sm font-extrabold text-white'>
               EDUCATION/CERTIFICATES
