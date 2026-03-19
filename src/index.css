@@ -20,12 +20,13 @@
 }
 
 :root {
-  --color-black-bg: rgb(15, 15, 15);
+  --color-bg: #fffffe;
+  /* --color-bg: rgb(15, 15, 15); */
 }
 
 body {
   font-family: 'Nunito Sans', sans-serif;
-  background-color: var(--color-black-bg);
+  background-color: var(--color-bg);
 }
 
 /* width of vertical scrollbar */
