@@ -18,7 +18,7 @@ const Home = () => {
             </span>
             <div className='mt-[7px]'>
               <span className='border-b-[1px] border-dashed border-gray-400 text-[13px] text-gray-800'>
-                ffelipemagallhaes@gmail.com
+                yvy.05@proton.me
               </span>
             </div>
           </header>
@@ -29,7 +29,7 @@ const Home = () => {
                 ABOUT
               </label>
               <p className='text-1xl mb-6 mt-3 pl-4'>
-                My name is Felipe Magalhães, a full-stack software engineer and
+                I'm Felipe Magalhães, a full-stack software engineer and
                 technology enthusiast. My passion for software lies with
                 dreaming up ideas and making them come true with intelligent and
                 elegant systems. I take great care in the experience,
