@@ -1,6 +1,6 @@
 # Mon Résumé
 
-This is my Résumé. You can check out my Résumé [here](https://neopass.neocities.org/).
+This is my Résumé. You can check it out [here](https://neopass.neocities.org/).
 
 Inspired by [Monochrome](https://en.wikipedia.org/wiki/Monochrome).
 
