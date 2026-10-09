@@ -1,3 +1,15 @@
-## This is my personal blog
+# Mon Résumé
 
-I'll be updating it.
+This is my Résumé. You can check out my Résumé [here](https://neopass.neocities.org/).
+
+Inspired by [Monochrome](https://en.wikipedia.org/wiki/Monochrome).
+
+## Some details
+
+- The website is hosted by [Neocities](https://neocities.org/) with manual Integration/Deploy.
+
+> Note: It's outdated, I'll push a few updates once my schedule clears up a bit.
+
+## License
+
+MIT.
